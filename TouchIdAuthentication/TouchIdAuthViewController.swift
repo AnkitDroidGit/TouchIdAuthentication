@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LocalAuthentication
 
 class TouchIdAuthViewController: UIViewController {
 
