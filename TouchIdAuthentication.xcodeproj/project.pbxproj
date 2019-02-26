@@ -12,6 +12,7 @@
 		EF7FE95A2224E8E60026C709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7FE9582224E8E60026C709 /* Main.storyboard */; };
 		EF7FE95C2224E8E70026C709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7FE95B2224E8E70026C709 /* Assets.xcassets */; };
 		EF7FE95F2224E8E70026C709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7FE95D2224E8E70026C709 /* LaunchScreen.storyboard */; };
+		EF7FE9682224E9B00026C709 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FE9672224E9B00026C709 /* LocalAuthentication.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EF7FE95B2224E8E70026C709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7FE95E2224E8E70026C709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7FE9602224E8E70026C709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7FE9672224E9B00026C709 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7FE9682224E9B00026C709 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				EF7FE9532224E8E60026C709 /* TouchIdAuthentication */,
 				EF7FE9522224E8E60026C709 /* Products */,
+				EF7FE9662224E9AF0026C709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				EF7FE9602224E8E70026C709 /* Info.plist */,
 			);
 			path = TouchIdAuthentication;
+			sourceTree = "<group>";
+		};
+		EF7FE9662224E9AF0026C709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FE9672224E9B00026C709 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26ZBAJ9N6K;
 				INFOPLIST_FILE = TouchIdAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26ZBAJ9N6K;
 				INFOPLIST_FILE = TouchIdAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
