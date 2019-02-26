@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF7FE9552224E8E60026C709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7FE9542224E8E60026C709 /* AppDelegate.swift */; };
-		EF7FE9572224E8E60026C709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7FE9562224E8E60026C709 /* ViewController.swift */; };
+		EF7FE9572224E8E60026C709 /* TouchIdAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7FE9562224E8E60026C709 /* TouchIdAuthViewController.swift */; };
 		EF7FE95A2224E8E60026C709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7FE9582224E8E60026C709 /* Main.storyboard */; };
 		EF7FE95C2224E8E70026C709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7FE95B2224E8E70026C709 /* Assets.xcassets */; };
 		EF7FE95F2224E8E70026C709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7FE95D2224E8E70026C709 /* LaunchScreen.storyboard */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		EF7FE9512224E8E60026C709 /* TouchIdAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchIdAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7FE9542224E8E60026C709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF7FE9562224E8E60026C709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF7FE9562224E8E60026C709 /* TouchIdAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIdAuthViewController.swift; sourceTree = "<group>"; };
 		EF7FE9592224E8E60026C709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF7FE95B2224E8E70026C709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7FE95E2224E8E70026C709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				EF7FE9542224E8E60026C709 /* AppDelegate.swift */,
-				EF7FE9562224E8E60026C709 /* ViewController.swift */,
+				EF7FE9562224E8E60026C709 /* TouchIdAuthViewController.swift */,
 				EF7FE9582224E8E60026C709 /* Main.storyboard */,
 				EF7FE95B2224E8E70026C709 /* Assets.xcassets */,
 				EF7FE95D2224E8E70026C709 /* LaunchScreen.storyboard */,
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7FE9572224E8E60026C709 /* ViewController.swift in Sources */,
+				EF7FE9572224E8E60026C709 /* TouchIdAuthViewController.swift in Sources */,
 				EF7FE9552224E8E60026C709 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
