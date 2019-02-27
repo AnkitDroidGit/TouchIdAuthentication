@@ -76,8 +76,8 @@ class TouchIdAuthViewController: UIViewController {
         let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
         alertVC.addAction(okAction)
         
-        dispatch_async(dispatch_get_main_queue()) { () -> Void in
-            self.presentViewController(alertVC, animated: true, completion: nil)
+        DispatchQueue.main.async {  () -> Void in
+            self.present(alertVC, animated: true, completion: nil)
         }
         
     }
@@ -128,9 +128,9 @@ class TouchIdAuthViewController: UIViewController {
         
         if let loggedInVC = storyboard?.instantiateViewController(withIdentifier: "LoggedInViewController") {
             
-            dispatch_async(dispatch_get_main_queue()) { () -> Void in
+            DispatchQueue.main.async { () -> Void in
                 
-                navigationController?.pushViewController(loggedInVC, animated: true)
+                self.navigationController?.pushViewController(loggedInVC, animated: true)
                 
             }
             
